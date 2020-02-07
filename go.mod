@@ -13,6 +13,8 @@ require (
 	github.com/cpuguy83/go-md2man v1.0.6 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dustin/go-humanize v0.0.0-20151125214831-8929fe90cee4
+	github.com/eapache/channels v1.1.0
+	github.com/eapache/queue v1.1.0 // indirect
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/ghodss/yaml v0.0.0-20150909031657-73d445a93680
 	github.com/gogo/protobuf v0.0.0-20160824171236-909568be09de
