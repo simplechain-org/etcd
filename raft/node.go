@@ -165,6 +165,10 @@ type Node interface {
 	ReportSnapshot(id uint64, status SnapshotStatus)
 	// Stop performs any necessary termination of the Node.
 	Stop()
+
+	// Report when the node's role in the cluster changes, as either LEADER or
+	// NOT_LEADER
+	RoleChan() *channels.RingChannel
 }
 
 type Peer struct {
